@@ -67,7 +67,7 @@
 
 Виконання лабораторної роботи відбувається через GitHub Classroom з фінальним підтвердженням здачі в системі Moodle.
 
-[**GitHub Classroom assignment лабораторної роботи**](https://classroom.github.com/a/0sdPRI1z)
+[**GitHub Classroom assignment лабораторної роботи**](https://classroom.github.com/a/8dq_uqMJ)
 
 Перейдіть за наданим посиланням. При першому використанні GitHub Classroom система може запитати дозвіл на доступ до вашого GitHub акаунту. Підтвердіть авторизацію для продовження роботи.
 
