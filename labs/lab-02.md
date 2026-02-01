@@ -63,7 +63,7 @@
 
 Здобувач освіти демонструє професійне володіння різними стратегіями гілкування та глибоке розуміння командної розробки з Git. Впевнено реалізує Git Flow, GitHub Flow та trunk-based development, може обґрунтувати вибір конкретної стратегії для різних типів проєктів. Створює детальні pull requests з comprehensive описом, context, screenshots, testing notes. Проводить thorough code review з фокусом на code quality, maintainability, performance, security. Ефективно використовує GitHub features для організації роботи: labels, projects, milestones, code owners. Налаштовує automation workflows для перевірки pull requests, автоматичного тестування, linting. Демонструє розуміння advanced Git concepts, таких як різниця між merge strategies, коли використовувати rebase vs merge. Створює професійний звіт з аналізом trade-offs різних підходів, рекомендаціями для реальних проєктів, діаграмами workflow processes.
 
-# Порядок оформлення та здачі лабораторної роботи
+## Порядок оформлення та здачі лабораторної роботи
 
 Виконання лабораторної роботи відбувається через GitHub Classroom з фінальним підтвердженням здачі в системі Moodle.
 
