@@ -546,92 +546,92 @@ git push origin main
 ## Шаблон звіту
 
 ```markdown
-# Лабораторна робота 3: Створення та оптимізація Docker образів
+    # Лабораторна робота 3: Створення та оптимізація Docker образів
 
-**Виконав:** ПІБ, група
+    **Виконав:** ПІБ, група
 
-**Дата:** дата виконання
+    **Дата:** дата виконання
 
-## Мета роботи
+    ## Мета роботи
 
-[Скопіюйте мету з методички]
+    [Скопіюйте мету з методички]
 
-## Хід виконання
+    ## Хід виконання
 
-### Рівень 1: Базовий Docker образ
+    ### Рівень 1: Базовий Docker образ
 
-**Обраний стек:** [Python Flask / Node.js Express]
+    **Обраний стек:** [Python Flask / Node.js Express]
 
-**Базовий Dockerfile:**
+    **Базовий Dockerfile:**
 
-```dockerfile
-[Ваш Dockerfile]
-```
+    ```dockerfile
+    [Ваш Dockerfile]
+    ```
 
-**Результати збірки:**
+    **Результати збірки:**
 
-![Розмір базового образу](screenshots/base-image-size.png)
+    ![Розмір базового образу](screenshots/base-image-size.png)
 
-Розмір базового образу: XXX MB
+    Розмір базового образу: XXX MB
 
-**Тестування застосунку:**
+    **Тестування застосунку:**
 
-![Curl запит](screenshots/curl-test.png)
+    ![Curl запит](screenshots/curl-test.png)
 
-### Рівень 2: Оптимізація образу
+    ### Рівень 2: Оптимізація образу
 
-**Оптимізований Dockerfile:**
+    **Оптимізований Dockerfile:**
 
-```dockerfile
-[Ваш Dockerfile.optimized]
-```
+    ```dockerfile
+    [Ваш Dockerfile.optimized]
+    ```
 
-**Порівняння розмірів:**
+    **Порівняння розмірів:**
 
-| Образ | Розмір | Зменшення |
-|-------|--------|-----------|
-| v1 базовий | XXX MB | - |
-| v2 оптимізований | YYY MB | ZZ% |
+    | Образ | Розмір | Зменшення |
+    |-------|--------|-----------|
+    | v1 базовий | XXX MB | - |
+    | v2 оптимізований | YYY MB | ZZ% |
 
-![Порівняння образів](screenshots/image-comparison.png)
+    ![Порівняння образів](screenshots/image-comparison.png)
 
-**Docker Compose конфігурація:**
+    **Docker Compose конфігурація:**
 
-```yaml
-[Ваш docker-compose.yml]
-```
+    ```yaml
+    [Ваш docker-compose.yml]
+    ```
 
-![Docker Compose up](screenshots/compose-up.png)
+    ![Docker Compose up](screenshots/compose-up.png)
 
-### Рівень 3: Безпека та автоматизація
+    ### Рівень 3: Безпека та автоматизація
 
-**Безпечний Dockerfile:**
+    **Безпечний Dockerfile:**
 
-```dockerfile
-[Ваш Dockerfile.secure]
-```
+    ```dockerfile
+    [Ваш Dockerfile.secure]
+    ```
 
-**Перевірка non-root:**
+    **Перевірка non-root:**
 
-![User check](screenshots/user-check.png)
+    ![User check](screenshots/user-check.png)
 
-**Результати Trivy scan:**
+    **Результати Trivy scan:**
 
-![Trivy результати](screenshots/trivy-scan.png)
+    ![Trivy результати](screenshots/trivy-scan.png)
 
-Знайдено вразливостей: [кількість по рівням]
+    Знайдено вразливостей: [кількість по рівням]
 
-**GitHub Actions workflow:**
+    **GitHub Actions workflow:**
 
-```yaml
-[Ваш workflow файл]
-```
+    ```yaml
+    [Ваш workflow файл]
+    ```
 
-![Actions результат](screenshots/github-actions.png)
+    ![Actions результат](screenshots/github-actions.png)
 
-## Висновки
+    ## Висновки
 
-[Опишіть що ви навчилися, які навички отримали, які труднощі виникли]
+    [Опишіть що ви навчилися, які навички отримали, які труднощі виникли]
 ```
 
 ## Контрольні запитання
