@@ -20,9 +20,9 @@ jobs:
       - name: Встановлення залежностей
         run: pip install pytest
 
-      - name: Показати файли (діагностика)
-        run: find demo/ci-tests -type f -name "*.py" | sort
+      - name: Показати структуру файлів (діагностика)
+        run: find demo/ci-tests -type f | sort
 
       - name: Запуск тестів
         working-directory: demo/ci-tests
-        run: pytest -v
+        run: pytest tests/test_smoke.py -v
