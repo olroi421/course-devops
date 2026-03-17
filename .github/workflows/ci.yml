@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Клонування репозиторію
+        uses: actions/checkout@v4
+
+      - name: Налаштування Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Встановлення залежностей
+        run: pip install pytest
+
+      - name: Запуск тестів
+        working-directory: demo/ci-tests
+        run: pytest tests/test_smoke.py -v
