@@ -7,7 +7,6 @@ from decimal import Decimal
 
 import pytest
 from src.discount import CustomerType, apply_discount, calculate_discount
-
 # from src.discount_refactored_with_bug import calculate_discount, apply_discount, CustomerType
 
 
