@@ -3,10 +3,12 @@
 Запуск: pytest tests/ -v
 """
 
-import pytest
 from decimal import Decimal
-#from src.discount import calculate_discount, apply_discount, CustomerType
-from src.discount_refactored_with_bug import calculate_discount, apply_discount, CustomerType
+
+import pytest
+from src.discount import CustomerType, apply_discount, calculate_discount
+
+# from src.discount_refactored_with_bug import calculate_discount, apply_discount, CustomerType
 
 
 class TestCalculateDiscount:
@@ -30,13 +32,16 @@ class TestCalculateDiscount:
         result = calculate_discount(amount, CustomerType.VIP)
         assert result == Decimal("20.00")
 
-    @pytest.mark.parametrize("amount, customer_type, expected", [
-        (Decimal("50.00"),  CustomerType.REGULAR, Decimal("0.00")),
-        (Decimal("50.00"),  CustomerType.PREMIUM, Decimal("5.00")),
-        (Decimal("50.00"),  CustomerType.VIP,     Decimal("10.00")),
-        (Decimal("200.00"), CustomerType.PREMIUM, Decimal("20.00")),
-        (Decimal("0.00"),   CustomerType.VIP,     Decimal("0.00")),
-    ])
+    @pytest.mark.parametrize(
+        "amount, customer_type, expected",
+        [
+            (Decimal("50.00"), CustomerType.REGULAR, Decimal("0.00")),
+            (Decimal("50.00"), CustomerType.PREMIUM, Decimal("5.00")),
+            (Decimal("50.00"), CustomerType.VIP, Decimal("10.00")),
+            (Decimal("200.00"), CustomerType.PREMIUM, Decimal("20.00")),
+            (Decimal("0.00"), CustomerType.VIP, Decimal("0.00")),
+        ],
+    )
     def test_various_scenarios(self, amount, customer_type, expected):
         assert calculate_discount(amount, customer_type) == expected
 
