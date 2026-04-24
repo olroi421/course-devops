@@ -55,7 +55,7 @@
 
 Виконання лабораторної роботи відбувається через GitHub Classroom з фінальним підтвердженням здачи в системі Moodle.
 
-[**GitHub Classroom assignment лабораторної роботи**](https://classroom.github.com/a/PLACEHOLDER-LAB08)
+[**GitHub Classroom assignment лабораторної роботи**](https://classroom.github.com/a/EnZPkxr-)
 
 Структура репозиторію повинна містити папку src/ з такими підпапками: app/ (вебзастосунок з інструментуванням метрик), monitoring/ (Docker Compose та конфігурації Prometheus, Grafana dashboards, Alertmanager), logging/ (конфігурації Loki та Promtail). Кореневий файл README.md повинен описувати архітектуру, інструкції запуску (docker-compose up), доступ до Grafana та інші компоненти. Папка screenshots/ повинна містити екранні знімки Grafana дашбордів, перегляду метрик, спрацьовування алертів та журналів. Конфігураційні файли повинні містити коментарі для пояснення кожного блоку.
 

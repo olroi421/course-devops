@@ -55,7 +55,7 @@
 
 Виконання лабораторної роботи відбувається через GitHub Classroom з фінальним підтвердженням здачі в системі Moodle.
 
-[**GitHub Classroom assignment лабораторної роботи**](https://classroom.github.com/a/PLACEHOLDER-LAB07)
+[**GitHub Classroom assignment лабораторної роботи**](https://classroom.github.com/a/SVfQY1j7)
 
 Структура репозиторію повинна містити папку src/ з двома підпапками: terraform/ та ansible/. У папці terraform/ розмістіть файли main.tf, variables.tf, outputs.tf та папку modules/ з модулями. У папці ansible/ розмістіть inventory.ini, playbook.yml та папку roles/ з необхідними rolями. Кореневий файл README.md повинен містити інструкції запуску (встановлення залежностей, docker-compose up для LocalStack, terraform init/plan/apply, ansible-playbook запуск). Папка screenshots/ повинна містити екранні знімки виконання всіх основних команд та результатів.
 
